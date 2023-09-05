@@ -1,0 +1,26 @@
+.app-stats {
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #F2F5F8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  > div {
+    text-align: center;
+
+    p,
+    span {
+    }
+
+    p {
+      margin: 0;
+      color: #718797;
+    }
+
+    span {
+      font-weight: bold;
+      display: block;
+      font-size: 24px;
+    }
+  }
+}
