@@ -25,24 +25,6 @@
   }
 }
 
-.horizontal-post {
-  display: flex;
-  gap: 2rem;
-
-  img {
-    width: 500px;
-    height: 300px;
-  }
-
-  .main-content {
-    display: flex;
-    flex-direction: column;
-
-    p {
-      flex-grow: 1;
-    }
-  }
-}
 
 .user-card {
   display: flex;
@@ -76,17 +58,36 @@
       width: 334px;
     }
   }
-
-  //.user-card {
-  //  flex-wrap: wrap;
-  //}
 }
 
 // Tablet
 @media (min-width: 768px) and (max-width: 991px) {
+  .horizontal-post {
+    img {
+      width: 664px;
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 // Desktop
 @media (min-width: 992px) {
-  /* Tus estilos para escritorios aquí */
+  .horizontal-post {
+    display: flex;
+    gap: 2rem;
+
+    img {
+      width: 500px;
+      height: 300px;
+    }
+
+    .main-content {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        flex-grow: 1;
+      }
+    }
+  }
 }
