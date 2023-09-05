@@ -65,3 +65,28 @@
     }
   }
 }
+
+// Movil
+@media (max-width: 767px) {
+  .user-card,
+  .horizontal-post {
+    flex-wrap: wrap;
+
+    img {
+      width: 334px;
+    }
+  }
+
+  //.user-card {
+  //  flex-wrap: wrap;
+  //}
+}
+
+// Tablet
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+// Desktop
+@media (min-width: 992px) {
+  /* Tus estilos para escritorios aquí */
+}
